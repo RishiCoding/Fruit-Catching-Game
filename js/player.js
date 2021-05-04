@@ -26,6 +26,7 @@ class Player {
             distance: this.distance,
             score:this.score
         });
+        this.score=this.score+1;
     }
 
     static getPlayerInfo() {
